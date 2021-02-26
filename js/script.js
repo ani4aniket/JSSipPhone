@@ -8,9 +8,7 @@ var configuration = {
   register: true,
 };
 
-var incomingCallAudio = new window.Audio(
-  "https://code.bandwidth.com/media/incoming_alert.mp3"
-);
+var incomingCallAudio = new window.Audio("../assets/ring.mp3");
 incomingCallAudio.loop = true;
 incomingCallAudio.crossOrigin = "anonymous";
 var remoteAudio = new window.Audio();
